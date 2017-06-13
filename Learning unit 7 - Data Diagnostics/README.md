@@ -17,7 +17,7 @@ be problematic so use never stop thinking critically when using what you learn h
 - [duplicated](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.duplicated.html)
 
 # Exercise
-Open the titanic dataset, and attempt to find problems.
+Open the titanic_exercise.csv (in the data folder) dataset, and attempt to find problems.
 You should be able to find the following:
 * Clear outliers
 * Ambiguous outliers
