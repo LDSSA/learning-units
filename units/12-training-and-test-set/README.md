@@ -15,7 +15,7 @@ The performance on the test set shouldn't be that different from the performance
 
 ## New tools in this unit
 
-* [train_test_split](http://scikit-learn.sourceforge.net/stable/modules/generated/sklearn.cross_validation.train_test_split.html)
+* [train_test_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 
 Parameters: `test_size`, `random_state`.
 
