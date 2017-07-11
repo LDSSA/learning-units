@@ -20,3 +20,5 @@ The performance on the test set shouldn't be that different from the performance
 Parameters: `test_size`, `random_state`.
 
 ## Exercise
+
+Example data from [Comic Books Are Still Made By Men, For Men And About Men, by Walt Hickey for FiveThirtyEight](https://fivethirtyeight.com/features/women-in-comic-books/). Also available on [GitHub](https://github.com/fivethirtyeight/data/tree/master/comic-characters).
