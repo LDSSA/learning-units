@@ -16,3 +16,7 @@ In this directory you will be learning how to fine tune your classifiers.
 
 # Exercise
 Open the affairs.csv dataset (in the data folder) and attempt to fine tune an SVM on the problem (alternatively, if you are feeling bold, you can try to fit a RandomForest classifier!:-) ) 
+
+# Dataset Source
+
+Fair, R. (1977) “A note on the computation of the tobit estimator”, Econometrica, 45, 1723-1727. http://fairmodel.econ.yale.edu/rayfair/pdf/1978A200.PDF.
