@@ -2,6 +2,7 @@
 
 In this directory you will be learning how to fine tune your classifiers.
 
+[Presentation](https://docs.google.com/presentation/d/1-JtysIJWqtILE0v-LPJQ_Jr_J2EnsiOdCKf2fpWIFZA/edit?usp=sharing)
 
 # New concepts in this unit
 - What are Hyperparameters
