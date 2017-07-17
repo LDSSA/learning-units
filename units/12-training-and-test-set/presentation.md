@@ -67,7 +67,7 @@ The validation set is used to **estimate the prediction error for model selectio
 
 [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)) is a way of measuring predictive performance.
 
-Performing **k-fold cross-validation** requires that the original sample is randomly partitioned into k subsamples and one is left out at each step, or iteration. 
+Performing **k-fold cross-validation** requires that the original sample is randomly partitioned into k subsamples and one is left out at each step, or iteration.
 
 One round of cross-validation involves performing the analysis using k-1 subsets, and using the remaining one for validation. The process is repeated k times, and then the k results can then be averaged.
 
@@ -77,5 +77,4 @@ One round of cross-validation involves performing the analysis using k-1 subsets
 
 The advantage is that all observations are used for both training and validation, and each observations is used for validation exactly once.
 
-Cross-validation can be used when there's not enough data to keep partitions without losing modelling or testing capability.
-
+Cross-validation can be used when there's not enough data to keep partitions without losing modeling or testing capability.
