@@ -8,17 +8,17 @@ Imagine a model that would just repeat the labels of the samples that it has jus
 
 It would have a perfect score, but fail to predict anything on new data.
 
-This is called **overfitting**.
+This is called **overfitting to the training data**.
 
 ---
 
-## What is overfitting?
+## What is overfitting to training data?
 
 Overfitting happens when your model detects apparent relationships in data that, well, aren't really there.
 
-This means that we see relationships that **don't generalize**.
+Specific knowledge about the dataset *leaks* into the model.
 
-[xkcd](https://xkcd.com/1122/) explains it.
+This means that we identify relationships that **don't generalize**.
 
 ---
 
@@ -36,7 +36,7 @@ A common practice when performing a supervised machine learning model is to **ho
 
 The testing dataset must contain only unknown or first seen data.
 
-This way, we assess how our results will generalize to a new data set and estimate the accuracy of our model in the real world, limiting overfitting.
+This way, we assess how our results will generalize to a new data set and estimate accuracy, limiting overfitting.
 
 ---
 
@@ -49,7 +49,23 @@ From the [Elements of Statistical Learning](http://www.springer.com/gp/book/9780
 * Ideally, the test set should be kept in a vault, and be brought out only at the end of the analysis (why?)
 
 ---
+## Train test split in `sklearn`
 
+```python
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=0)
+```
+
+`X`: features, can be lists, numpy arrays, dataframes
+`y`: response, same length or shape[0] (pandas)
+`test_size`: proportion of the dataset to include in the test split
+`random_state`: number generator state used for random sampling
+
+See the [official documentation](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html).
+
+---
 ## How do I test different models?
 
 ### Keep a validation set (if you have enough data)
