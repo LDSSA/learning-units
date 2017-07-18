@@ -5,6 +5,7 @@ select the data that you're interested in.
 For this unit, you'll need the skills that you learnt in unit 1.
 As you practice this new skills, you'll get more comfortable using pandas.
 
+[Presentation](https://docs.google.com/a/lisbondatascience.org/presentation/d/1F6T_rmVVFjQzDUfbK9zmRCjStZFCi7Ngq05z3GYEcJc/edit?usp=sharing)
 
 # New concepts in this unit
 - Row selection in DataFrames
@@ -31,9 +32,9 @@ Alice is coming to Lisbon for one week with her husband and 2 children. They are
 
 __Inform Bob about his room's reviews!__
 
-Bob is a grumpy landlord that calls you every Friday to ask about his room's reviews. But today, he's particularly grumpy because his sister Claire listed a room with Airbnb last week, so he also wants to know if her room has more reviews than his. So, first get a DataFrame with only Bob's and Claire's rooms. They have room ids 97503 and 90387 respectively. Then, from this DataFrame, get a Series with the room with more reviews.
+Bob is a grumpy landlord that calls you every Friday to ask about his room's reviews. But today, he's particularly grumpy because his sister Claire listed a room with Airbnb last week, so he also wants to know if her room has more reviews than his. So, first get a DataFrame with only Bob's and Claire's rooms. They have room ids 97503 and 90387 respectively. Then, from this DataFrame, get a Series with the room with more reviews. Finally, export the result into a csv file called bob.csv in the practice directory, and use ";" as the separator.
 
 
 __Find a place for Diana__
 
-Diana is coming to Lisbon for 3 nights and she really wants to meet new people. She has a 50€ budget to spend with accommodation. So, find her the top 10 cheapest places and give more preference to shared rooms than to private ones, and then to rooms with better overall satisfaction score and more reviews.
+Diana is coming to Lisbon for 3 nights and she really wants to meet new people. She has a 50€ budget to spend with accommodation. So, find her the top 10 cheapest places and give more preference to shared rooms than to private ones, and then to rooms with better overall satisfaction score and more reviews. At the end, export the result into a json file with index orientation.
