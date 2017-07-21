@@ -15,15 +15,15 @@ In this directory you will be learning the basics of using Pandas to read and pr
 - [read_csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)
 - [head](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.head.html)
 
-[tail](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.tail.html)
+- [tail](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.tail.html)
 
-[shape](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.shape.html)
+- [shape](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.shape.html)
 
-[dtypes](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.shape.html)
+- [dtypes](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.shape.html)
 
-[set_index](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.set_index.html)
+- [set_index](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.set_index.html)
 
-[reset_index](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reset_index.html)
+- [reset_index](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.reset_index.html)
 
 
 # Exercise
