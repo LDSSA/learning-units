@@ -8,17 +8,18 @@ will explain what we can do to improve linear regression when the dynamic range 
 different variables is very different and also when some variables are not very useful and thus
 create more problems than help in the regression.
 
-#### [Presentation](https://docs.google.com/presentation/d/14aQqZ4j38m3TYHbc_uEePCFa20jYz_zyF4w0hNQVY2I/pub?start=false&loop=false&delayms=3000)
+#### [Presentation](https://docs.google.com/presentation/d/1vcm755I6-P_NEsgskbJr-FcFBckVEld2ddhYzoYkeFc/edit?usp=sharing)
 
 # New concepts in this unit
 - What linear regression is, and why is it useful
 - Linear regression cost function
 - How to estimate optimum regression parameters using Gradient descend algorithm
-- Working with single and multivariate cases
-- Feature scaling and regularization
+- Working with single and multivariate linear regression
+- Feature scaling
 
 # New tools in this unit
-TBD
+sklearn
 
 # Exercise
-TBD
+Open the linear regression exercise notebook and apply linear regression to estimate the price of houses in Boston. 
+Follow the notebook for what steps you are asked to do.
