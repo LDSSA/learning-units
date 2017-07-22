@@ -1,3 +1,7 @@
+If you are a student and have somehow found your way here, please note that
+we are not quite done. Feel free to poke around but don't take anything
+as written in stone just yet.
+
 # learning-units
 
 Right now we are working on developing an example learning unit. Until it is decided upon, the root of this repo
