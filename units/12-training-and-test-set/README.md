@@ -1,31 +1,27 @@
 # Training and test set
 
-We need to split the data set into two separate sets:
-* a training set
-* and a test set.
+In this unit you will learn why training and testing your model using a single data set is a bad practice.
 
-This means that we train, and we test on two different sets of data.
+You will also learn how to split your raw data set into training and test sets using `sklearn`, and how to use them.
 
-If your ML model learns too much on the data set, that the performance might not be great on a slightly different one.
-
-We call this *overfitting* to our training data, and it leads to us thinking we know better what's going on than we actually do.
-
-Imagine if you have an algorithm that would just memorize all the data, test it on the same data as training data, and always give you 100% accuracy, but no clue about how to generalize to new data.
-
-The performance on the test set shouldn't be that different from the performance on the training set, this would mean that the ML model learned *true* relationships that we can generalize, instead of those particular to the training data set, that have little to no predictive power in the real world, where data is somewhat different.
+We will explain why, if you have enough data, you could also use a validation data set.
 
 ## New concepts in this unit
 
-* Test size
-* Overfitting
-* Cross validation
+* Overfitting to training data
+* Train and test split
+* Validation data set
 
 ## New tools in this unit
 
 * [train_test_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 
-Parameters: `test_size`, `random_state`.
-
 ## Exercise
 
-Example data from [Comic Books Are Still Made By Men, For Men And About Men, by Walt Hickey for FiveThirtyEight](https://fivethirtyeight.com/features/women-in-comic-books/). Also available on [GitHub](https://github.com/fivethirtyeight/data/tree/master/comic-characters).
+* Go back to the original `pokemon.csv` data set in the `data/` folder
+* Use `train_test_split` to create three independent data sets: train, validation and test
+    * Use 60% of the data for your training data set
+    * The remaining data is to be partitioned equality into validation and test sets (20% each)
+* Use the validation set to test if the inclusion of a new feature (e.g. `HP`) improves the accuracy of the model
+* Use the training and validation sets to test a few more tweaks in the model; use the test set to test your final model
+* What's the caveats of partitioning your data this way?
