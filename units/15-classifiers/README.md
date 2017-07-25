@@ -22,7 +22,10 @@ You will also play doctor, and try to diagnose breast cancer based on the charac
 
 # Exercise
 Using the classifiers your learned about, predict the target in our dataset, "Class". 0 stands for benign, 1 for malignant.
+The features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
 
 # Dataset Source
 
 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
+
+
