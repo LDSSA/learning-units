@@ -40,7 +40,8 @@ a Learning Unit of roughly the following format:
 ### Setup
 
 1. Do the [setup](https://github.com/LDSSA/setup).
-1. Clone this repo
+1. Clone this repo.
+    - Just do whatever you did to clone the setup repo except for this one instead.
 1. Open a jupyter notebook and navigate to the `units` directory of this repo
     - If you used anaconda, just navigate to where you cloned this repo
     - If you're using Docker, run `run-jupyter-notebook.sh`
