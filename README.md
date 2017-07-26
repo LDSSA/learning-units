@@ -7,9 +7,9 @@ meant to convey a few related concepts in the form of
 - some example notebooks
 - some open-ended practice exercises
 
-During the academy, we will be going through these one-by-one, listening
-to the instructors give their short presentations, check out the examples,
-and do the practice exercises.
+During the academy, we will be going through these one-by-one listening
+to the instructors give their short presentations, checking out the examples,
+and doing the practice exercises.
 
 ### The format
 
