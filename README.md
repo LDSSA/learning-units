@@ -1,33 +1,47 @@
-If you are a student and have somehow found your way here, please note that
-we are not quite done. Feel free to poke around but don't take anything
-as written in stone just yet.
+## What is this repo?
 
-# learning-units
+This repo contains a series of Learning Units. A Learning Unit is one hour of material
+meant to convey a few related concepts in the form of
 
-Right now we are working on developing an example learning unit. Until it is decided upon, the root of this repo
-will be the example learning unit.
+- a short (<15 min) presentation
+- some example notebooks
+- some open-ended practice exercises
 
-## Step 1
+During the academy, we will be going through these one-by-one listening
+to the instructors give their short presentations, checking out the examples,
+and doing the practice exercises.
 
-Install:
-- [git](https://git-scm.com/)
-  - If you're on Windows or OS X and don't know what git is, [GitHub Desktop](https://desktop.github.com/) is probably easiest.
-  - All others: you probably know what to do.
-- [docker](https://docs.docker.com/engine/installation/)
+### Usage
 
-## Step 2
-
-Clone this repository and enter the directory on the command line.
-
-## Step 3
-
-Open a terminal and run
+Inside the `units` directory, there are 16 directories, each of them containing
+a Learning Unit of roughly the following format:
 
 ```
-bash run-jupyter-notebook.sh
+├── README.md
+├── data
+├── examples
+└── practice
 ```
 
-### Step 4
+- The README.md is meant to be viewed *in a browser on github.com* and contains.
+    - The purpose of the unit.
+    - The concepts being presented.
+    - A link to the presentation.
+    - The practice assignment.
+- The data directory contains the datasets that the instructors have
+  chosen for the examples and practice exerciess.
+- A examples directory that contains notebooks that have a bunch of code
+  already filled in. You don't HAVE to write any code here but you should
+  play around with the stuff that's already written to get a feel for
+  the code.
+- A pracitce directory that contains an empty notebook. This is where you should
+  implement your solutions to the assignment presented in the README.
+  
+### Setup
 
-Click the link that is displayed to open the notebook.
-
+1. Do the [setup](https://github.com/LDSSA/setup).
+1. Clone this repo.
+    - Just do whatever you did to clone the setup repo except for this one instead.
+1. Open a jupyter notebook and navigate to the `units` directory of this repo
+    - If you used anaconda, just navigate to where you cloned this repo
+    - If you're using Docker, run `run-jupyter-notebook.sh`
