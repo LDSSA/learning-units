@@ -21,6 +21,8 @@ Categorical or nominal variables assign each observation to a given category, on
 
 A categorical variable that can take on exactly two values is a binary variable.
 
+The machine learning algorithms we use tend to want numbers, not strings, as inputs.
+
 ---
 
 ![categorical-data](assets/categorical-data.jpg)
@@ -140,6 +142,30 @@ Dummy variables take the value of 0 or 1 to indicate the absence or presence of 
 
 # Dealing with categorical variables
 
+## The curse of dimensionality
+
+After overfitting, the biggest problem in machine learning is the curse of dimensionality: in high-dimensional spaces, things stop working.
+
+The curse of dimensionality arises with high-dimensional spaces.
+
+High-dimensional feature spaces require more training data to ensure that there are several samples with each combination of values  (input space).
+
+With a fixed number of training samples the predictive power reduces as the dimensionality increases (aka Hughes Phenomenon).
+
+---
+
+# Dealing with categorical variables
+
+## The curse of dimensionality
+
+If the number of rows in a data set is fixed, and we are adding more  columns (dimensions) without extra information we can hurt model performance.
+
+This is more true when we lack samples in each category.
+
+---
+
+# Dealing with categorical variables
+
 ## Dummy encoding with `pandas.get_dummies`
 
 ```python
@@ -184,7 +210,7 @@ hot_encode_labels_in_data_frame(data, cols)
 
 * `OneHotEncoder` don't process strings directly (you need to label encode them first using the `LabelEncoder`)
 * `get_dummies`, on the other end, can be used with other types
-* `OneHotEncoder` transforms n levels into n-1 columns, while, if in `get_dummies`, you'd need to explicitly use `drop_first=True`
+* Use `drop_first=True` with `get_dummies` (avoid collinearity)
 * `sklearn`'s encoders can be used in scikit-learn pipelines
 
 ---
@@ -302,7 +328,3 @@ cols = ['cols', 'to', 'be', 'binarized']
 normalize_features_in_data_frame(data, cols)
 ```
 ---
-
-
-High-cardinality (a lot of values, like an ID field)
-Curse of dimensionality
