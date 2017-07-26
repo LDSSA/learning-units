@@ -11,7 +11,7 @@ During the academy, we will be going through these one-by-one listening
 to the instructors give their short presentations, checking out the examples,
 and doing the practice exercises.
 
-### The format
+### Usage
 
 Inside the `units` directory, there are 16 directories, each of them containing
 a Learning Unit of roughly the following format:
@@ -23,7 +23,7 @@ a Learning Unit of roughly the following format:
 └── practice
 ```
 
-- The README.md is meant to be read from the browser on github.com and contains.
+- The README.md is meant to be viewed *in a browser on github.com* and contains.
     - The purpose of the unit.
     - The concepts being presented.
     - A link to the presentation.
