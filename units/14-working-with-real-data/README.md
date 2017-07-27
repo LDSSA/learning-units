@@ -40,3 +40,4 @@ Feature scaling:
 * Apply a combination of the approaches above to deal with them, be conscious about the curse of dimensionality
 * Standardize scales across numerical features
 * Bonus: would the presence of outliers affect the effectiveness of the scalers above?
+    * [Hint](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_robust_scaling.html)
