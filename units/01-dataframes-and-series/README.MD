@@ -5,7 +5,7 @@ We will then use Pandas to read and preview a dataset, view the shape of the dat
 
 #### [Presentation](https://docs.google.com/presentation/d/1GSbYJUCj15IJs8tSzQGbZdYd3lj27dZcAfyWCEb0FXg/edit?usp=sharing)
 
-# New concepts in this 
+# New concepts in this unit
 - Pandas Series
 - Pandas DataFrame
 - Reading
