@@ -10,8 +10,12 @@ In this directory you will be learning how to use data visualization to find pat
 - Customizing plots using matplotlib
 
 # New tools in this unit
-- [plot](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
-- [plot formatting](https://pandas.pydata.org/pandas-docs/stable/visualization.html#plot-formatting)
+- Uses of data visualization
+- Common chart types
+- [pandas .plot](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
+- [pandas plot formatting](https://pandas.pydata.org/pandas-docs/stable/visualization.html#plot-formatting)
+- Basic plot customization with [matplotlib](https://matplotlib.org/)
+- Different plotting libraries in Python
 
 # Exercise
 Load the file misterius_data.csv and use data visualization to answer the following questions:
