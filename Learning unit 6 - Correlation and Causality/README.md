@@ -2,7 +2,7 @@
 
 In this lesson you will be learning about correlation and causality, and then heading out to have fun with some stock market data. 
 
-#### [Presentation](https://docs.google.com/presentation/d/16reQi0mlP1geJpFRErKf3sYUA_zKAxfAVp8IzxvEOZI/pub?start=false&loop=false&delayms=3000)
+#### [Presentation](https://docs.google.com/presentation/d/15Nm53_-8YOPYol_oYyKHMgRSwXRmAx-JtpXr25Qed00/pub?start=false&loop=false&delayms=3000)
 
 # New concepts in this unit
 - Pearson Correlation 
