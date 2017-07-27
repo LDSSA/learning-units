@@ -1,6 +1,6 @@
 # DataFrames and Series
 
-In this directory you will be learning about the basics elements of Pandas: Series and DataFrames.
+In this learning unit you will be learn about the basics elements of Pandas: Series and DataFrames.
 We will then use Pandas to read and preview a dataset, view the shape of the dataset, the data types it contains, and how we can set, sort or reset its index.
 
 #### [Presentation](https://docs.google.com/presentation/d/1GSbYJUCj15IJs8tSzQGbZdYd3lj27dZcAfyWCEb0FXg/edit?usp=sharing)
