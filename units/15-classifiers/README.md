@@ -3,7 +3,7 @@
 In this directory you will learn about some of the different classifiers, and their respective use cases.
 You will also play doctor, and try to diagnose breast cancer based on the characterists of cells!
 
-#### [Presentation](https://docs.google.com/presentation/d/1GSbYJUCj15IJs8tSzQGbZdYd3lj27dZcAfyWCEb0FXg/edit?usp=sharing)
+#### [Presentation](https://docs.google.com/presentation/d/1x3U1yHVQtT6oqR83fsVgXxQW_pwZLv1eMb3kPCtIlEk/edit?usp=sharing)
 
 # New concepts in this unit
 - Naive Bayes classifier
@@ -21,11 +21,13 @@ You will also play doctor, and try to diagnose breast cancer based on the charac
 - [RandomForestClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 # Exercise
-Using the classifiers your learned about, predict the target in our dataset, "Class". 0 stands for benign, 1 for malignant.
-The features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
+Using the classifiers your learned about, predict the target in our dataset, "diagnosis". 0 stands for benign, 1 for malignant.
+The features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
+
+[Characteristics of Cancer Cells](data/Characteristics of Cancer Cells.png)
 
 # Dataset Source
 
-https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
+https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 
 
