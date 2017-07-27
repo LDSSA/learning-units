@@ -34,7 +34,7 @@ a Learning Unit of roughly the following format:
   already filled in. You don't HAVE to write any code here but you should
   play around with the stuff that's already written to get a feel for
   the code.
-- A pracitce directory that contains an empty notebook. This is where you should
+- A practice directory that contains an empty notebook. This is where you should
   implement your solutions to the assignment presented in the README.
   
 ### Setup
