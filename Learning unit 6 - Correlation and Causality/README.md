@@ -1,26 +1,17 @@
-# Detecting data problems
+# Correlation and Causality 
 
-In this directory you will be learning how to detect some types of data problems.
-As you will see in the presentation, defining what a data problem is can in itself
-be problematic so use never stop thinking critically when using what you learn here!
+In this lesson you will be learning about correlation and causality, and then heading out to have fun with some stock market data. 
 
-#### [Presentation](https://docs.google.com/presentation/d/14aQqZ4j38m3TYHbc_uEePCFa20jYz_zyF4w0hNQVY2I/pub?start=false&loop=false&delayms=3000)
+#### [Presentation](https://docs.google.com/presentation/d/16reQi0mlP1geJpFRErKf3sYUA_zKAxfAVp8IzxvEOZI/pub?start=false&loop=false&delayms=3000)
 
 # New concepts in this unit
-- Detecting duplicated data
-- Defining outliers
-- Detecting missing data
-- Looking for data problems in general
+- Pearson Correlation 
+- Spearman Correlation
+- Causality 
+- Correlation table 
 
 # New tools in this unit
-- [isnull](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.isnull.html)
-- [duplicated](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.duplicated.html)
+- [.corr](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.corr.html)
 
 # Exercise
-Open the titanic_exercise.csv dataset (in the data folder), and attempt to find problems.
-You should be able to find the following:
-* Clear outliers
-* Ambiguous outliers
-* Duplicated data
-* Nonsense data
-* A furry animal
+Search for correlations in the stock prices and airline statistics dataset 
