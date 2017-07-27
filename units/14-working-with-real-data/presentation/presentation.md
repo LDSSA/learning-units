@@ -72,7 +72,7 @@ def encode_labels_in_data_frame(data, cols):
 
     data[cols] = data[cols].apply(
         lambda x: pd.factorize(x)[0])
-    
+
     return data
 
 
@@ -92,9 +92,9 @@ from sklearn.preprocessing import LabelEncoder
 def encode_labels_in_data_frame(data, cols):
 
     encoder = LabelEncoder()
-    
+
     data[cols] = data[cols].apply(encoder.fit_transform)
-    
+
     return data
 
 
@@ -114,9 +114,9 @@ from sklearn.preprocessing import LabelBinarizer
 def encode_binary_labels_in_data_frame(data, cols):
 
     encoder = LabelBinarizer()
-    
+
     data[cols] = data[cols].apply(encoder.fit_transform)
-    
+
     return data
 
 
@@ -172,12 +172,12 @@ This is more true when we lack samples in each category.
 import pandas as pd
 
 def dummy_encode_labels_in_data_frame(data, cols):
-    
+
     data = pd.get_dummies(data, columns=cols)
-    
+
     return data
-   
-   
+
+
 cols = ['cols', 'to', 'be', 'dummy', 'encoded']
 dummy_encode_labels_in_data_frame(data, cols)    
 ```
@@ -193,9 +193,9 @@ from sklear.preprocessing import OneHotEncoder
 def hot_encode_labels_in_data_frame(data, cols):
 
     encoder = OneHotEncoder(categorical_features=all)
-    
+
     data[cols] = encoder.fit_transform(data[cols])
-    
+
     return data
 
 
@@ -223,6 +223,8 @@ To avoid attributes in greater numeric ranges dominating those in the smaller nu
 
 Many classifiers, for example, calculate the distance between points, and if one of the features has a broader range, will govern distance.
 
+Thus, it might make the estimator unable to learn from other features correctly, as expected.
+
 Also, normalization is key in most optimization problems; e.g. such an algorithm as gradient descent converges faster.
 
 ---
@@ -247,9 +249,9 @@ from sklearn.preprocessing import MinMaxScaler
 def scale_features_in_data_frame(data, cols):
 
     scaler = MinMaxScaler()
-    
+
     data[cols] = scaler.fit_transform(data[cols])
-    
+
     return data
 
 cols = ['cols', 'to', 'be', 'rescaled']
@@ -263,6 +265,7 @@ scale_features_in_data_frame(data, cols)
 ## Stardardizing with `sklearn`'s `StandardScaler`
 
 * Standardize by removing the mean and scaling to unit variance
+* Assumes somewhat normally distributed data (but, in practice, people often overlook the shape of the distribution)
 * Assumes somewhat normally distributed data
 
 ```python
@@ -271,9 +274,9 @@ from sklearn.preprocessing import StandardScaler
 def standardize_features_in_data_frame(data, cols):
 
     scaler = StandardScaler()
-    
+
     data[cols] = scaler.fit_transform(data[cols])
-    
+
     return data
 
 
@@ -296,9 +299,9 @@ from sklearn.preprocessing import Normalizer
 def normalize_features_in_data_frame(data, cols):
 
     scaler = Normalizer()
-    
+
     data[cols] = scaler.fit_transform(data[cols])
-    
+
     return data
 
 
@@ -318,11 +321,11 @@ normalize_features_in_data_frame(data, cols)
 def binarize_features_in_data_frame(data, cols):
 
     scaler = Binarizer(threshold=.5)
-    
+
     data[cols] = scale.fit_transform(data[cols])
-    
+
     return data
-    
+
 
 cols = ['cols', 'to', 'be', 'binarized']
 normalize_features_in_data_frame(data, cols)
