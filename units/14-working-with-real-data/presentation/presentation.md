@@ -223,6 +223,11 @@ To avoid attributes in greater numeric ranges dominating those in the smaller nu
 
 Many classifiers, for example, calculate the distance between points, and if one of the features has a broader range, will govern distance.
 
+<<<<<<< HEAD
+Thus, it might make the estimator unable to learn from other features correctly, as expected.
+
+=======
+>>>>>>> 7cd1e57a5ac2a68376bdf7dd08db155fd7c06470
 Also, normalization is key in most optimization problems; e.g. such an algorithm as gradient descent converges faster.
 
 ---
@@ -263,7 +268,11 @@ scale_features_in_data_frame(data, cols)
 ## Stardardizing with `sklearn`'s `StandardScaler`
 
 * Standardize by removing the mean and scaling to unit variance
+<<<<<<< HEAD
+* Assumes somewhat normally distributed data (but, in practice, people often overlook the shape of the distribution)
+=======
 * Assumes somewhat normally distributed data
+>>>>>>> 7cd1e57a5ac2a68376bdf7dd08db155fd7c06470
 
 ```python
 from sklearn.preprocessing import StandardScaler
