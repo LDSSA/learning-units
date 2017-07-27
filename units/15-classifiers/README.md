@@ -24,7 +24,7 @@ You will also play doctor, and try to diagnose breast cancer based on the charac
 Using the classifiers your learned about, predict the target in our dataset, "diagnosis". 0 stands for benign, 1 for malignant.
 The features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
-![Characteristics of Cancer Cells](/data/Characteristics of Cancer Cells.png)
+![Characteristics of Cancer Cells](data/Characteristics of Cancer Cells.png)
 
 # Dataset Source
 
