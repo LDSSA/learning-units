@@ -18,7 +18,7 @@ In this directory you will be learning how to use data visualization to find pat
 - Different plotting libraries in Python
 
 # Exercise
-Load the file misterius_data.csv and use data visualization to answer the following questions:
+Load the file misterious_data.csv and use data visualization to answer the following questions:
 
 * How is the distribution of x in general?
 * Are there any outlier in any of the fields?
