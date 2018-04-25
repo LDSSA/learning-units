@@ -1,3 +1,8 @@
+# This is obsolete, go away! 
+
+![Go away](http://www.reactiongifs.com/r/bcga.gif)
+
+
 ## What is this repo?
 
 This repo contains a series of Learning Units. A Learning Unit is one hour of material
